@@ -19,3 +19,5 @@ On Server(socket-io-server):
 On Client(socket-io-client): 
 1. In App.js in the src directory, listen to the emit event 'FromAPI' and use the data received to compare and throw the in app notification.
 
+Working: 
+The temperature is displayed on the screen using DarkSky api. Everytime there is a change in the temperature an alert message is shown to the user.
